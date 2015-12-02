@@ -19,3 +19,9 @@ RUN Rscriptdevel -e 'install.packages(c( "devtools", "testthat", "knitr", "openx
 
 # installing some more specific packages, from CRAN
 RUN Rscriptdevel -e 'install.packages(c("funr", "params"))
+
+
+
+
+
+# END
