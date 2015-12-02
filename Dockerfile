@@ -18,7 +18,7 @@ RUN apt-get install -y git libssl-dev libxml2-dev qpdf pandoc
 RUN Rscriptdevel -e 'install.packages(c( "devtools", "testthat", "knitr", "openxlsx", "diagram", "reshape2", "ggplot2"))'
 
 # installing some more specific packages, from CRAN
-RUN Rscriptdevel -e 'install.packages(c("funr", "params"))
+RUN Rscriptdevel -e 'install.packages(c("funr", "params"))'
 
 
 
